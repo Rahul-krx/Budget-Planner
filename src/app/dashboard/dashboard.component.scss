@@ -1,0 +1,115 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: calc(100% - 40px);
+    max-width: 1200pxx;
+}
+.card{
+    position: relative;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgb(0,0,0,0.1);
+    padding: 20px;
+    width: calc(50% - 40px);
+    max-width: 400px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover{
+   transform: translateY(-7px);
+    box-shadow: 0px 0px 20px rgb(0,0,0,0.2);
+}
+.card-header{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background: #43a5;
+    cursor: pointer;
+}
+.button{
+ cursor: pointer;   
+ float: right;
+ font-size: 18px;
+ padding: 9px 20px ;
+ background: #008080;
+ outline: none;
+ border: none;
+ border-radius: 10px;
+ color: #ffffff;
+ margin-right: 16px;
+ text-align: center;
+}
+.button:hover{
+    background: #006666;
+}
+.transaction-status mat-icon{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    color: #4caf50;
+}
+.transaction-details{
+    margin-left: 10px;
+    font-size: 16px;
+    color: #333;
+}
+.transaction-details.completed{
+    text-decoration: line-through;
+}
+.list{
+    list-style-type: none;
+}
+#btn{
+    margin-top: 40px;   
+}
+.todo-icon{
+    color: #008080;
+}
+#card3{
+    margin-left: 30px;
+    margin-right: 480px;
+    
+}
+#card4{
+    margin-left: 460px;
+    margin-top: -370px;
+    height: 310px;
+}
+#card4 h3{
+    margin-left: 70px;
+    margin-top: -40px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+#card4 p{ 
+    margin-left: 235px;
+    margin-top: -34px;   
+}
+.total-icon{
+    background-color: rgb(0, 128, 111);
+} 
+.expense-icon{
+    background-color: rgba(137, 47, 47, 0.747);
+}
+.income-icon{
+    background-color: rgb(140, 140, 28);
+}
+.trans-icon{
+    background-color: rgba(136, 53, 67, 0.542);
+}
